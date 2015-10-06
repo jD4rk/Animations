@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="?attr/actionBarSize" >
+
+    <ImageView
+        android:id="@+id/homeListCityImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image1"
+        android:contentDescription="image" />
+
+    <LinearLayout
+        android:id="@+id/overlayCity"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#99000000"
+        android:layout_alignBottom="@+id/homeListCityImage"
+
+        android:baselineAligned="false" >
+        <TextView
+            android:id="@+id/homeListCityName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Plaisentville"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|right"
+            android:paddingRight="16dp" >
+            <TextView
+                android:id="@+id/homeListCityIntineraryNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white" />
+            <TextView
+                android:id="@+id/homeListCityiBeaconNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

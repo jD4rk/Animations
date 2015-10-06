@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SomeTransactionForFragmet</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_SlideFrag">Trans. Fragment</string>
+    <string name="title_activity_SlideFragSupport">Trans. SupportFragment</string>
+</resources>

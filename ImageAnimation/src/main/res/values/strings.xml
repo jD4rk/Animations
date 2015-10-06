@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Image Animation</string>
+    <string name="title_activity_main">Image Animation</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_rotation">Rotation - Multi Example</string>
+    <string name="title_activity_fade">Fade</string>
+    <string name="title_activity_animation">Scale</string>
+    <string name="title_activity_mix_animation">Mix</string>
+    <string name="title_activity_slide">Slide</string>
+    <string name="title_activity_multi_object">MultiObject - ObjectAnimator</string>
+
+</resources>

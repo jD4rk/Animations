@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="it.jdark.android.animation.sometransactionforfragmet.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Start"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"/>
+
+    <FrameLayout
+        android:id="@+id/fragContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#55555500"
+        android:layout_centerInParent="true"
+        android:layout_alignBottom="@+id/button"/>
+
+</RelativeLayout>
